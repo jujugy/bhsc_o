@@ -14,8 +14,8 @@ namespace server {
 	class server2 {
 		static void Main(string[] args) {
 			Console.WriteLine("Server is running ... ");
-			IPAddress ip = new IPAddress(new byte[] { 210, 64, 10, 102 });
-			TcpListener listener = new TcpListener(ip, 80);
+			IPAddress ip = new IPAddress(new byte[] { xxx, xxx, xxx, xxx});//ip
+			TcpListener listener = new TcpListener(ip, xxx);//port
 
 			listener.Start();			
 			Console.WriteLine("Start Listening ...");
