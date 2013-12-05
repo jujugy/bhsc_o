@@ -14,8 +14,8 @@ namespace server {
 	class server2 {
 		static void Main(string[] args) {
 			Console.WriteLine("Server is running ... ");
-			IPAddress ip = new IPAddress(new byte[] { xxx, xxx, xxx, xxx});//ip
-			TcpListener listener = new TcpListener(ip, xxx);//port
+			IPAddress ip = new IPAddress(new byte[] { xxx, xxx, xxx, xxx});	//ip
+			TcpListener listener = new TcpListener(ip, xxx);		//port
 
 			listener.Start();			
 			Console.WriteLine("Start Listening ...");
@@ -41,8 +41,8 @@ namespace server {
         private string[] splitstring;
 
         //need more info
-        private string key = "xvadmin001";
-        private string gid = "1014";
+        private string key = "";  	//key
+        private string gid = "";	//gid	
         private string url_requestInfo = "https://user.gamer.com.tw/webcoin/playshop_getdata.php";
         private string url_sendInfo = "http://www.radiya.com.tw/radiya/_call.aspx?addGamerPoint=";
         private string url_rusult = "https://user.gamer.com.tw/webcoin/playshop_result.php";
