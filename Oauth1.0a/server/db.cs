@@ -16,7 +16,7 @@ namespace server
         #region InsertData
         public static bool Data_Save(string _tid)
         {
-             string dbCon = "server=localhost;user=root;database=radiyacbaha;port=3307;password=usbw;";
+             string dbCon = "server= ;user= ;database= ;port= ;password= ;";
              bool dataCheck;
              MySqlConnection conn = new MySqlConnection(dbCon);
              try
@@ -40,7 +40,7 @@ namespace server
         #region UpdateData1
         public static void Data_Update1(string tid, string data)
         {
-            string dbCon = "server=localhost;user=root;database=radiyacbaha;port=3307;password=usbw;";
+            string dbCon = "server= ;user= ;database= ;port= ;password= ;";
             MySqlConnection conn = new MySqlConnection(dbCon);
             try
             {
@@ -68,7 +68,7 @@ namespace server
         #region UpdateData2
         public static void Data_Update2(string tid, string data)
         {
-            string dbCon = "server=localhost;user=root;database=radiyacbaha;port=3307;password=usbw;";
+            string dbCon = "server= ;user= ;database= ;port= ;password= ;";
             MySqlConnection conn = new MySqlConnection(dbCon);
             try
             {
